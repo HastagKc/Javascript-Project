@@ -9,18 +9,21 @@
   <body>
     <div class="main_container">
       <div class="top">
-        <div class="left_question_no">Question 3 of 10</div>
-        <div class="right_timer">10s</div>
+        <div class="left_question_no">
+          Question no: <span id="qustionNo"></span> of
+          <span id="totalNoQuestions"></span>
+        </div>
+        <div class="right_timer"></div>
       </div>
 
       <div class="question_container">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo harum
-        reprehenderit perspiciatis ratione pariatur odio, eligendi sapiente
-        voluptate debitis, eum blanditiis nesciunt, quia expedita saepe
-        accusantium quisquam neque aut. At!?
+        <p id="question"></p>
+        <ol id="options"></ol>
       </div>
 
-      <button id="nextBtn">Next</button>
+      <!-- <button id="nextBtn">Next</button> -->
+
+      <script src="app.js"></script>
     </div>
   </body>
 </html>
